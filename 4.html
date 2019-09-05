@@ -1,51 +1,53 @@
 <html>
   <head>
-    <title>숙소 정보</title>
+    <title>숙소</title>
     <meta charset="utf-8" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-147126551-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
       }
-      gtag("js", new Date());
-
-      gtag("config", "UA-147126551-1");
-    </script>
-    <h1><a href="index.html">홈</a></h1>
-    <br />
-
+      .li {
+        font-size: 35px;
+      }
+      #active {
+        color: indigo;
+      }
+      h1 {
+        font-size: 50px;
+        text-align: center;
+      }
+    </style>
+    <h1><a href="index.html">홈페이지</a></h1>
+  </head>
+  <br />
+  <body>
     <ul>
       <strong>
-        <li><a href="3.html"> 음식점</a></li>
-        <br />
-        <li><a href="2.html"> 장소 </a></li>
-        <br />
-        <li><a href="4.html"> 숙소</a></li>
+        <li><a href="3.html" class="li"> 음식점</a></li>
+        <li><a href="2.html" class="li"> 여행지 </a></li>
+        <li><a href="4.html" class="li" id="active"> 숙소</a></li>
       </strong>
     </ul>
-  </head>
-  <h1>숙소정보</h1>
-  <br />
-  <br />
-  <ul>
-    <li>호텔&펜션</li>
     <br />
-    <li>게스트하우스</li>
+    <h2>숙소정보</h2>
+    <br />
+    <br />
+    <ul>
+      <li>호텔&펜션</li>
+      <br />
+      <li>게스트하우스</li>
 
-    <p>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/A0E-WAy1vM0"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </p>
-  </ul>
+      <p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/A0E-WAy1vM0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </p>
+    </ul>
+  </body>
 </html>
